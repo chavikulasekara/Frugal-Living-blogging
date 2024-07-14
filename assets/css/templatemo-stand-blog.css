@@ -137,7 +137,7 @@
   
   .page-heading .text-content {
 	position: relative;
-	z-index: 2; /* Ensure text stays on top of the overlay */
+	z-index: 2;
   }
   
 .page-heading .text-content h4 {
@@ -157,7 +157,7 @@
 
 
 /* Header Style */
-header {
+/* header {
 	position: absolute;
 	z-index: 99999;
 	width: 100%;
@@ -167,7 +167,7 @@ header {
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-}
+} */
 
 
 
@@ -244,9 +244,9 @@ header {
 
 /* Responsive Style */
 @media (max-width: 1250px) {
-	.owl-banner .owl-nav .owl-prev {
+	/* .owl-banner .owl-nav .owl-prev {
 		left: 0px;
-	}
+	} */
 	.owl-banner .owl-nav .owl-next {
 		right: 0px;
 	}
@@ -260,12 +260,12 @@ header {
 		font-size: 20px;
 	}
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.owl-banner .owl-nav {
 		display: none;
 	}
-}
-
+} */
+/* 
 @media (max-width: 992px) {
 	.navbar .navbar-brand {
 		position: absolute;
@@ -342,4 +342,4 @@ header {
 		margin-left: 0px;
 		margin-top: 60px;
 	}
-}
+} */
